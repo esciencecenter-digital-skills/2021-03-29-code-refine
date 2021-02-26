@@ -267,17 +267,15 @@ CODE OF CONDUCT
 {% endcomment %}
 <h2 id="code-of-conduct">Code of Conduct</h2>
 
-<p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
-</p>
+<p>Participants are expected to follow those guidelines:</p>
 
-<p class="text-center">
-  <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
-  </a>
-</p>
-<hr/>
-
+  <ul>
+    <li>Use welcoming and inclusive languag</li>
+    <li>Be respectful of different viewpoints and experiences</li>
+    <li>Gracefully accept constructive criticism</li>
+    <li>Focus on what is best for the community</li>
+    <li>Show courtesy and respect towards other community members</li>
+  </ul>
 
 {% comment %}
 Collaborative Notes
