@@ -270,7 +270,7 @@ CODE OF CONDUCT
 <p>Participants are expected to follow those guidelines:</p>
 
   <ul>
-    <li>Use welcoming and inclusive languag</li>
+    <li>Use welcoming and inclusive language</li>
     <li>Be respectful of different viewpoints and experiences</li>
     <li>Gracefully accept constructive criticism</li>
     <li>Focus on what is best for the community</li>
