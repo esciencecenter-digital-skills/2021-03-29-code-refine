@@ -253,14 +253,28 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
+{% endcomment %}
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    The course is aimed at graduate students and other researchers. It is assumed that participants already write code for
+    their research, but no expertise is required. Some experience in navigating the file tree and editing files in a
+    terminal session is recommended. <strong>Familiarity with Python programming basics is expected.</strong>
 </p>
-{% endcomment %}
 
 <hr/>
+
+<h2 id="git-introduction">Optional Introduction to Git on day 1</h2>
+<p>From practice we know the level of experience with git varies a lot.
+Therefore we offer an optional 'Introduction to version control with Git' lesson on day 1 of the workshop. 
+</p>
+
+<p>
+Please take <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=zOo6qgdjskKsBXh91cMldINH9cwZ08RPgftDzWeUSaBUMzFWMU0xRjhTTlZLRk9XQUZUNDlBR085OS4u">this 1-minute quiz</a> 
+to quickly self-assess your git knowledge.
+<strong>If you answered all questions correctly you can join the workshop from day 2 onwards. Otherwise, you should join the "Introduction to Git" session on day one</strong>
+</p>
+
 
 {% comment%}
 CODE OF CONDUCT
