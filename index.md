@@ -272,7 +272,7 @@ Therefore we offer an optional 'Introduction to version control with Git' lesson
 <p>
 Please take <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=zOo6qgdjskKsBXh91cMldINH9cwZ08RPgftDzWeUSaBUMzFWMU0xRjhTTlZLRk9XQUZUNDlBR085OS4u">this 1-minute quiz</a> 
 to quickly self-assess your git knowledge.
-<strong>If it turns out you are already familiar with the basics of git you can join the workshop from day 2 onwards.</strong>
+<strong>If you answered all questions correctly you can join the workshop from day 2 onwards. Otherwise, you should join the "Introduction to Git" session on day one</strong>
 </p>
 
 
