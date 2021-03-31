@@ -116,6 +116,7 @@ In this lesson, we introduced the `“git push”` command. How is `“git push�
 - let your code be reviewed by tagging the repo owner using (@Username)
 - At the same time review Pull Request using comments on individual lines. Try to act as if it was a real peer review as much as possible.
 - Accept or reject the Pull Request
+- (Optionally) learn about [merge conflicts](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts) and try it out in your collaboration.
 
 
 ## Day 3 Introduction to Continuous Integration
@@ -269,7 +270,7 @@ if temperature > -50:
  Which of these comments is best? Can you explain why?
  Write your answer in the collaborative document (before looking at others' answers)
  
- ### Exercise: Adding in-code documentation
+###Adding in-code documentation
 
  Update this code snippet so it is well-documented:
 
@@ -337,15 +338,44 @@ Paste a link to your github page in the collaborative document.
 - Why do you write tests/ Why do you not write tests?
 - Write reasons into the collabroative document?
 
-### Exercise 2: Testing locally
+### Testing locally (25min)
 
 Please use https://coderefinery.github.io/testing/pytest/
 
-### Exercise 3: Testing using Gitlab CI
+### Testing as part of the CI (15min)
 
-See https://coderefinery.github.io/testing/gitlab-ci/
+Add the following to your github actions workflow file from yesterday. 
 
-### Exercise 4: Test design
+```
+    - name: Test with pytest
+      run: |
+        pytest example.py
+```
+
+
+Add these functions to your ``example.py``:
+```python=
+def add(a, b):
+    return a + b
+
+
+def test_add():
+    assert add(2, 3) == 5
+    assert add('space', 'ship') == 'spaceship'
+
+
+def subtract(a, b):
+    return a + b  # <--- fix this 
+
+
+# uncomment the following test
+#def test_subtract():
+#    assert subtract(2, 3) == -1
+```
+
+See what the CI does now and then uncomment the ``test_substract`` test.See what the CI does now, Afterwards fix the ``subtract`` function.
+
+### Exercise 4: Test design (35min)
 
 Write tests for the following functions/classes. Also test the error condition:
 ```python
